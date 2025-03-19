@@ -1,0 +1,148 @@
+{
+	"WBUI2":
+	{
+		"settings":
+		{
+			"openbutton": 0,
+			"hideicon": false,
+			"hideiconafter": 60,
+			"iconurl": "https://i.imgur.com/uI8GFbn.png",
+			"disableicontext": false,
+			"iconposition": 0,
+			"icontextcolor": 0,
+			"openonstart": true,
+			"openonstartonlynewplayers": true,
+			"updateinterval": 12
+		},
+		"tabs": [
+			{
+				"layout": 3,
+				"buttontext": "Welcome",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "Cerberus Ascended Server Guide",
+						"text": "<TextStyle.Violet>SURVIVAL REIMAGINED</>\r\n\r\nProgression is drastically revamped—enhancing your survival experience without the need for complex overhaul mods. Every challenge you overcome, every quest you complete, and every tier you ascend in the Aetheric Spire rewards you with meaningful power and efficiency.\r\n\r\nOur unique systems ensure that your character grows stronger not just through levels, but through your actions, as well as making sure you have plenty of rewards to chase after. Your XP, harvesting, and taming improve over time, while your combat abilities evolve alongside you and your tames. The world around you is balanced to respect your time, rewarding dedication without forcing endless or enabling extremely boosted rates from the start.\r\n\r\n\r\n<TextStyle.Green>Using the Server Guide</>\r\n\r\nThis Server Guide is your quick-reference hub for all essential gameplay information. Whether you need details on progression, rates/stats, details of ongoing events, or even just the latest Server Update Notes, you'll find them here.\r\n\r\nFor additional help, updates, and community discussions, be sure to use the Discord button to join our server. Our community and admins are ready to assist, answer questions, and keep you informed on everything happening."
+					},
+					{
+						"title": "Current Events",
+						"text": ""
+					},
+					{
+						"title": "Latest Update",
+						"text": "**__3/15/2025__**\r\n**Fixes**\r\n-Fixed an issue with multiple custom damage configurations not applying properly.\r\n-Fixed an issue with damage tuning that allowed players to damage Mechanical Apostles without the proper means (separate from the above fix. I borked multiple things in that config)\r\n-Fixed supply crates not spawning at all if there happened to be a structure in its way. Supply drops will now simply deploy on top of a structure if they collide with one.\r\n-Fixed an extra damage multiplier being applied to tames while harvesting, causing a lag spike. This also caused an unintended increase in general farming speed. So while you might farm a bit slower with tames, you'll still get the same amount of resources. \r\n-Fixed a database issue preventing Level Up Events from granting rewards.\r\n\r\n**Quests**\r\n-Removed the Dino Mania Compound Bow crafting requirement from \"Not Great for Rear of Ogres\". Quest now requires crafting 50 of the 1K Dino Mania arrows instead.\r\n-Enabled access to Weekly and Daily Quests.\r\n   -Access is granted upon completing certain main quests.\r\n   -Access to a tier's Weekly and Daily quests is removed upon progressing to the next tier.\r\n   -Players can acquire Reset tokens that can be used to reset your current Daily or Weekly quest (complete or incomplete) for a new one. These can be earned as rewards, purchased from the ARKShop, and earned from VIP loot crates.\r\n-Enabled an automatic reset timer for Daily and Weekly Quests. This is unfortunately just a little clunky on initial access, as your quest timers won't reflect properly until the first reset.\r\n   -Daily quests reset at 5AM EST.\r\n   -Weekly quests reset on Monday at 5AM EST.\r\n-Cleaned up the UI message, and added new relevant info.\r\n-Added a requirement for crafting Quantum Knight armor to the final quest for Castaway.\r\n-Renamed Cerberus Challenges to Aetheric Spire Challenges.\r\n   -Cerberus Challenges as a name will be repurposed for something else for PvPvE ;)\r\n\r\n**Scorched Earth: DOX Server**\r\nNew Overhaul server has been added with a familiar name: Utopia Ablaze! Due to the highly custom nature of the mod's gameplay loop, this will be a very lightweight server in regards to customization compared to the main cluster. \r\n-Overhaul: DOX2. https://www.curseforge.com/ark-survival-ascended/mods/dino-ovherhaul-x-2\r\n   \"DOX2 offers many tiers of evolution and custom armors (similar to ARPGs) with stat rolls and set bonuses for melee, damage reduction, stamina increase, health regen, and more. The mod includes dozens of custom items to aid progression, adding abilities to your dinos like AOE group mechanics and evolution items. New structures allow for boss summoning, crafting, mining forge which makes resource gathering less primitive in the late game.\"\r\n-Server is configured with the \"Easy\" difficulty.\r\n-Player food and water drain reduced by 15%\r\n-All rates are vanilla\r\nCurrent mod list:\r\n   -DOX2\r\n   -Inventory Saver\r\n   -Mouse Saver\r\n   -Nanoh's Spyglass\r\n   -Nanoh's Reusables\r\n   -Nanoh's Ascended Equipment\r\n   -Omega Teleporter\r\n   -Dino Depot\r\n   -Shiny Dinos\r\n   -ASR\r\n   -B+ Structures\r\n   -Admin Panel\r\n   -HUD Stuff Durability\r\n   -Mantling\r\n   -Player Traits\r\n   -World Builder\r\n   -Cerberus Additions\r\n   -Imbue Station\r\n\r\n\r\n**Svartalfheim**\r\nNew premium map has been added: Svartalfheim! \r\n__Server Name__: Runeheim\r\n-Flyers are completely disabled.\r\n-Prototherians and Unproven have been re-classified for Svart.\r\n   -Prototherian-class creatures are named Frumkyn.\r\n   -Unproven will be a special case where it's only one particular creature, and they will be known as Grimforged.\r\n-Dwarf damage resistance and damage dealt increased by 50%.\r\n-Thurduar's Bane damage resistance increased by 20% per tier. Damage dealt has been increased by 12.5%\r\nComing Soon:\r\n-Quest chains that will be available to Svart owners.\r\n-Unique Boss Events.\r\n-Nexus Incursions.\r\n\r\n\r\n**General Game Changes**\r\n-Added an in-game server guide (WIP). This can be accessed with F1 on a keyboard, or through your radial menu on controller.\r\n\t-This can provide information on the latest server update notes, current events, as well as guides and tips for different features of the cluster and mods.\r\n   -Information can be edited cluster-wide from anywhere, allowing for new information to always be available through the guide :) I'll try to make all announcements both here and Discord.\r\n-Increased base global weight reduction from 15% to 40%\r\n-Enabled same-map downloading for items. This means that if, for whatever reason you need to, you can use /download on the same map where you uploaded your items. \r\n-Slightly increased the gain to weight stats when progressing to the next Tier.\r\n-Increased weight reduction to 50% for multiple resources.\r\n-Disabled the Pegomastax pet from dropping. If you wanna be sneaky sneaky, you'll have to invest a bit more into it :P\r\n-Attempting a spawn override to replace S-Deinons with Bright Raptors due to multiple issues with S-Deinons (THIS BETTER WORK FFS)\r\n-Increased the fuel consumption interval by 225% to assist with charcoal production. \r\n-Charcoal crafting cost for Reinforced Ingots has been reduced from 3 to 1.\r\n-Cost of Quality Scrap has been reduced to 50 Reinforced Ingots.\r\n-Disabled Titanosaur feeding. This was a setting leftover from when this was all originally for a private server.\r\n-Increased Honey stacksize to 20.\r\n-Added crafting cost of 25 Magic Essence to the Awesome Teleporter Remote.\r\n-Spoil time multiplier has been reduced from 5x to 2.5x\r\n-Opened up Tough and Strong Dino Mania spawns on The Island.\r\n-Cleaned up a lot of old config code\r\n-Removed Meganeura from potential Shiny spawns.\r\n-Added Dreadmare and Pyromane spawns to Extinction.\r\n-Removed Spawn Blocker mod.\r\n-Added a new Dino Population Control mod. I don't like to constantly run full-map dino wipes, but there are still times where it's good to have at least some management on a daily basis. This will be utilized for a few different things:\r\n\t-Biome-specific dino wipes and population control\r\n\t-Class-specific dino wipes to address potential overspawns across the map.\r\n\t-Torpor-based wipe protection to ensure wild dinos with a certain % of torpor will not be wiped.\r\n   -Buff-based blacklisting to prevent certain buffed creatures (Like Shinies) from being wiped.\r\n\t-Automatic wiping of unclaimed dinos after 15 minutes.\r\n-Reduced the max amount of dropped items in a given area of the world from 600 to 500.\r\n\r\n\r\n**Creature Trait Changes**\r\nThe following Traits have had their chances of being on a wild creature adjusted by the following amounts:\r\n-Healer increased by 10%\r\n-Horde Fighter reduced by 25%\r\n-Forager increased by 15%\r\n-Wraithborne increased by 10%\r\n-Hangry increased by 10%\r\n-Hivemind reduced by 35%\r\n-Fearmonger increased by 15%\r\n-Razorback reduced by 20%\r\n-Radiated reduced by 40%\r\n\r\n\r\n**Event Bosses and Minions**\r\n-Replaced Pteranodon minions with Yi Lings.\r\n-Replaced Cerato minions with S-Thylacos.\r\n-Added Tough Mantises to the Bane of Nanoh minions.\r\n-Added Bright Arthros to Wrath of Littlefoot minions.\r\n-Reduced size scaling for Bane of Nanoh boss due to an animation issue. \r\n-Added Rubber Troll event.\r\n   -Level 450\r\n   -4.5million health\r\n   -Melee increased by 35%\r\n   -Rubber Shiny effect\r\n   -Minions consist of Orcs, Werewolves, and Praetorian Mega Spiders.\r\n      -Level range: 375-450\r\n      -Possible Shiny buffs: Burning, and Psychotropic.\r\n   -Damage resistance values for wild Trolls apply to boss trolls. The following weapons and tames do increased damage to Trolls:\r\n      -Prism's Edge, Ice Axe, Automatic Shotgun, Remington, Scrap Katana, Light Machine Gun, Normal Arthros and Bright Arthros, Alpha Bright and Wraith Velos, Wraith Thylacos, Tough Thylacos, Dragonkin, Grenade Launchers, \r\n\r\n\r\n**Loot Changes**\r\n-Completely reworked the loot crate distribution system for supply drops (changes will make their way over to other loot sources.)\r\n-Added Species Y seeds to Taming caches.\r\n-Added Item Traits from Assorted Traits to multiple loot sources.\r\n-Added the Assorted Trait Player Abilities to Event Bosses.\r\n-Reworked the loot given on different level-ups.\r\n-Replaced the Unproven loot crates being used for Event Bosses with proper loot crates. \r\n-Added multiple cosmetics and chibis to the Boss lootpool.\r\n-Added Quantum Knight blueprints to the Boss lootpool."
+					}
+				]
+			},
+			{
+				"layout": 3,
+				"buttontext": "Progression",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "<TextStyle.Green>Aetheric Spire</>",
+						"text": "New Text"
+					},
+					{
+						"title": "<TextStyle.Green>Quests</>",
+						"text": ""
+					},
+					{
+						"title": "<TextStyle.Green>Boss Events</>",
+						"text": ""
+					}
+				]
+			},
+			{
+				"layout": 3,
+				"buttontext": "Stats and Rates",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "<TextStyle.Green>AUGMENTED SURVIVAL</>",
+						"text": "<TextStyle.Green>Tier-Based Stats and Rates</>\r\n\r\nSurvival on this ARK is not just about adapting—it’s about evolving. Through the Augmented Rates and Augmented Stats systems, your progression is directly tied to your actions, challenges, and achievements. As you advance through the Aetheric Spire, your efficiency in gathering, taming, combat, and overall survivability will steadily improve.\r\n\r\n<TextStyle.Green>How It Works</>\r\n\r\nRather than starting with a fixed set of boosted rates and stats, your power grows as you conquer challenges, complete quests, and ascend the Spire’s tiers. This ensures a balanced yet rewarding experience where effort leads to meaningful progression.\r\n\r\n<RichColor Color=\"0.21,0.5,1,1\">Augmented Rates</> – Your XP, harvesting, and taming multipliers increase over time, stacking additively with any additional rate boosts.\r\n<RichColor Color=\"0.21,0.5,1,1\">Augmented Stats</> – Your base stats and stat growth are enhanced, and completing quests grants permanent combat bonuses that apply to both you and any tamed creatures you ride.\r\n\r\n<TextStyle.Green>Castaway Stats and Rates</>\r\n\r\n<RichColor Color=\"0,1,0,1\">Base Stats</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>: 225\r\n<RichColor Color=\"0.21,0.5,1,1\">Stamina</>: 225\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>: 250\r\n<RichColor Color=\"0.21,0.5,1,1\">Food</>: 150\r\n<RichColor Color=\"0.21,0.5,1,1\">Oxygen</>: 150\r\n<RichColor Color=\"0.21,0.5,1,1\">Water</>: 150\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>: 102\r\n<RichColor Color=\"0.21,0.5,1,1\">Fortitude</>: 10\r\n\r\n<RichColor Color=\"0,1,0,1\">Stats Per Level Mutlipliers</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>: 1.25x\r\n<RichColor Color=\"0.21,0.5,1,1\">Stamina</>: 1.15x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>: 1.15x\r\n<RichColor Color=\"0.21,0.5,1,1\">Food</>: 1.15x\r\n<RichColor Color=\"0.21,0.5,1,1\">Oxygen</>: 1.15x\r\n<RichColor Color=\"0.21,0.5,1,1\">Water</>: 1.15x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>: 1.15x\r\n<RichColor Color=\"0.21,0.5,1,1\">Crafting</>: 1.05x\r\n<RichColor Color=\"0.21,0.5,1,1\">Fortitude</>: 1.1x\r\n\r\n<RichColor Color=\"0,1,0,1\">Rates and Other Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">XP</>: 2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Taming</>: 2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Player and Dino Harvesting</>: 2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Player and Dino Damage Bonus</>: 5%\r\n<RichColor Color=\"0.21,0.5,1,1\">Player and Dino Damage Resistance Bonus</>: 5%\r\n"
+					},
+					{
+						"title": "<TextStyle.Green>Augmented Stats Explained</>",
+						"text": "The Augmented Stats system ensures that as you progress through the Aetheric Spire, your character and tamed creatures become stronger and more resilient. Your stats aren’t just about how many points you invest—they grow dynamically through quest progression and special bonuses.\r\n\r\n<TextStyle.Green>How It Works</>\r\n\r\nUpon completing your first quest, you will receive an immediate <RichColor Color=\"1,0,1,1\">5%</> bonus to both damage dealt and damage reduction. This isn’t just for you—any tamed creature you ride will also benefit from this boost, making both you and your mounts more formidable in combat.\r\n\r\nYou will also not only receive an increase to the base stats of your character, but also a bonus to the multiplier used when you level a stat.\r\n\r\n\r\n<TextStyle.Green>Augmented Stats Example</>\r\n\r\nIn the first tier of the Aetheric Spire – Castaway, your base stats and leveling multipliers are as follows:\r\nStat\tBase Value\tMultiplier per Level\r\nHealth\t225\t1.25x\r\nStamina\t225\t1.15x\r\nWeight\t325\t1.15x\r\nFortitude\t10\t1.1x\r\n\r\nThese multipliers ensure that every point invested provides meaningful growth, making your survivor more adaptable to the dangers of the ARK."
+					},
+					{
+						"title": "<TextStyle.Green>Augmented Rates Explained</>",
+						"text": "While on the cluster, your experience, harvesting, and taming rates grow progressively as you advance through the tiers of the Aetheric Spire. Instead of static rate multipliers, your efficiency in gathering, leveling, and taming increases over time, rewarding dedication and progression.\r\n\r\n<TextStyle.Green>How It Works</>\r\n\r\nYour base rates start at a normal level, but as you complete quests, challenges, and trials within the Aetheric Spire, you’ll unlock higher Augmented Rate multipliers. This means the deeper you go into your journey, the more efficient you become in every aspect of survival. Whether you’re gathering resources, taming powerful creatures, or gaining experience, your efforts will always be rewarded with increased rates.\r\n\r\n<TextStyle.Green>Boosts & Stacking Explained</>\r\n\r\nTo ensure a healthy balance in gameplay, any boosts/bonuses players receive to their Augmented Rates will be added instead of multiplied. This means your Progression Tier rates will simply add to any other boosts you may earn through various means.\r\n\r\nFor example:\r\n\r\n    -If your current Augmented Rate multiplier is 3x and you receive a 2x boost, your final rate will be 5x (not 6x).\r\n    -This applies to all types of rate bonuses you receive, keeping your growth predictable and rewarding without excessive stacking.\r\n\r\n<TextStyle.Green>How to Check Your Current Rates</>\r\n\r\nUsing the chat command <TextStyle.Yellow>/showrates</> will show your current rates after any bonuses, as well as your bonus damage dealt and damage reduction. "
+					}
+				]
+			},
+			{
+				"layout": 1,
+				"buttontext": "Chat Commands",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "<TextStyle.Green>Chat Command List</>",
+						"text": "Some of the features of the cluster are accessed through simple chat commands, which players just have to type into the in-game chat like they're sending a message.\r\n\r\n<TextStyle.Green>/showrates</>\r\nThis can be used at any time to check on your current rates with any additional bonuses, as well as your damage dealt and damage resistance bonuses. \r\n\r\n<TextStyle.Green>/solofarm</>\r\nWhether you're a lone wolf, or your tribe's all asleep, you can pick up a Doedi or Anky of any variant with a flyer, then use /solofarm to make them start swinging away.\r\n\r\n<TextStyle.Green>/upload</>\r\nUsed to upload your inventory into the cloud before transferring, including Element and Trophhies! This can only be used while accessing an Obelisk Terminal or Transmitter.\r\n\r\n<TextStyle.Green>/download</>\r\nNormally when you transfer servers, your items will automatically download to your character. This command can be used in cases of players crashing while transferring, causing them to spawn in naked. Using /download will retrieve your items from the cloud and right back to your character."
+					},
+					{
+						"title": "",
+						"text": ""
+					}
+				]
+			},
+			{
+				"layout": 2,
+				"buttontext": "Enhanced Weaponry",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "Scrap Weapons",
+						"text": "New Text"
+					},
+					{
+						"title": "Fantasy Weapons",
+						"text": ""
+					}
+				]
+			},
+			{
+				"layout": 1,
+				"buttontext": "Creature Tiers",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "<TextStyle.Green>Creature Tiers</>",
+						"text": "Throughout your journey you will very quickly come across an enchanting feature to most creatures: A particle aura of either red, green, or blue. These particles will denote a type of Tier a creature is, which can grant them different bonuses based on the tier.\r\n\r\nEach tier is tied to a CreatureTiers gene trait and as such can be transferred in the usual ways a trait can be. Tiers each correspond to the same color bosses do: Red particles for alpha, blue for beta, and gamma for green. Each tier also comes with a dangerous Territorial variant - substantially more powerful than its usual kind. Taming methods are unaffected by each tier, but territorial critters can't be pacified, and must simply be fought or avoided. Creatures of the ARK may even rally around the territorial beast in support!\r\n\r\n<TextStyle.Green>Gamma Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:\r\n\r\n<TextStyle.Blue>Beta</>\r\n\r\n\r\n\r\n\r\n<TextStyle.Red>Alpha</>\r\n\r\n"
+					},
+					{
+						"title": "",
+						"text": ""
+					}
+				]
+			},
+			{
+				"layout": 3,
+				"buttontext": "Progression",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "<TextStyle.Green>Aetheric Spire</>",
+						"text": "New Text"
+					},
+					{
+						"title": "<TextStyle.Green>Quests</>",
+						"text": ""
+					},
+					{
+						"title": "<TextStyle.Green>Boss Events</>",
+						"text": ""
+					}
+				]
+			}
+		],
+		"links": [
+			{
+				"text": "Discord",
+				"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+			}
+		],
+		"version": 2
+	}
+}
