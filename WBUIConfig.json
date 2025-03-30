@@ -4,8 +4,8 @@
 		"settings":
 		{
 			"openbutton": 0,
-			"hideicon": true,
-			"hideiconafter": 30,
+			"hideicon": false,
+			"hideiconafter": 60,
 			"iconurl": "https://i.imgur.com/uI8GFbn.png",
 			"disableicontext": false,
 			"iconposition": 0,
@@ -18,38 +18,19 @@
 			{
 				"layout": 3,
 				"buttontext": "Welcome",
-				"imageurl": "",
+				"imageurl": "https://i.imgur.com/zMIdfSu.png",
 				"content": [
 					{
-						"title": "Welcome to Cerberus Ascended!",
-						"text": "<TextStyle.Violet>SURVIVAL REIMAGINED</>\r\n\r\nProgression is drastically revamped—enhancing your survival experience without the need for complex overhaul mods. Every challenge you overcome, every quest you complete, and every tier you ascend in the Aetheric Spire rewards you with meaningful power and efficiency.\r\n\r\nThe custom systems ensure that your character grows stronger not just through raw leveling, but by taking on a wide variety of challenges across multiple facets of old, and new, gameplay. Your XP, harvesting, and taming improve over time, while your combat abilities evolve alongside you and your tames. The world around you is balanced to respect your time, rewarding dedication without forcing endless or enabling extremely boosted rates from the start.\r\n\r\n\r\n<TextStyle.Green>Using the Server Guide</>\r\n\r\nThis Server Guide is your quick-reference hub for all essential gameplay information. Whether you need details on progression, rates/stats, details of ongoing events, or even just the latest Server Update Notes, you'll find them here.\r\n\r\nFor additional help, updates, and community discussions, be sure to use the Discord button to join our server. Our community and admins are ready to assist, answer questions, and keep you informed on everything happening."
+						"title": "Cerberus Ascended Server Guide",
+						"text": "<TextStyle.Violet>Welcome to Cerberus Ascended!</>\r\n\r\n<TextStyle.Green>Using the Server Guide</>\r\n\r\nThis Server Guide is your quick-reference hub for all essential gameplay information. Whether you need details on progression, a brief FAQ, info about rates/stats, details of ongoing events, or even just the latest Server Update Notes, you'll find them here.\r\n\r\nFor additional help, updates, and community discussions, be sure to use the Discord button to join our server. Our community and admins are ready to assist, answer questions, and keep you informed on everything happening."
 					},
 					{
 						"title": "Current Events",
-						"text": "<TextStyle.Green>Launch event coming this weekend! Stay Tuned!</>"
+						"text": "<TextStyle.Green>Weekend Event 3/29-4/1</>\r\n\r\nWild dinos over level 100 have a potential pool of 60 colors they can pull from and use for any color region.\r\nNanoh's Ascended Equipment and Ascended Saddles drop rate increased to 2x\r\nEaster Variants enabled for Shiny spawns."
 					},
 					{
 						"title": "Latest Update",
-						"text": "<TextStyle.Green>3/26/25</>\r\nNoticed a couple things that aren't working right, as well as how spammy your initial sign-in can be on a server. Gonna tune that down, and tune some UI elements a smidge.\r\n\r\nFixes\r\n-Fixed a blacklist issue with Shiny! applying to the wrong variants.\r\n-Fixed an issue where the kit for verifying Discord wasn't showing in the Shop\r\n-Fixed override being used for Bright Raptors referencing the wrong creature.\r\n-Fixed an issue with the Tip4Serv link not properly parsing player information for their EOS.\r\n    -Store still isn't available, but I saw that and wanted to fix it before I forgot.\r\n\r\nGeneral Changes\r\n-Changed the color of the in-game chat to white. \r\n-Removed the vanilla-based MOTD popup on server sign-in.\r\n-Whitelisted the CKF engrams mybad\r\n-Set the Assist Icon for the Server Guide to disappear after 30 seconds.\r\n-Removed the date/time from chat messages feeding to Discord. \r\n-Enabled the ability for tribe owners to set up webhooks for their tribe logs, because why not?\r\n    -Players must first verify their account by linking it in ⁠discord-linking \r\n    -After you've received your Verified role, please submit a General Support ticket to help setup your webhook.\r\n-Added Tags that players can enable to show in their cross-chat messages.  The format of the message shows as: \" map: tag yourname yourtribename : message\r\n    -Tags can be set by using \"/settag\" followed by the tag you want to enable. The currently available ones are: Castaway, Survivor, Starseeker, Aetherial, and VIP. You can only enable Tags for things you currently have access to.\r\n-Cleaned up the formatting of the stat panel in Discord.\r\n\r\n\r\n\r\nI hit some supply crates and didn't get any extra loot minus the old stuff I had already done. Looks like I had a corruption issue with the editor I was using, and the changes didn't merge over into the config I uploaded. Gonna take just a little bit to get sorted out, but I'll post in here once it's done 🙂 Changes for loot are deployed live, so no reboot needed."
-					}
-				]
-			},
-			{
-				"layout": 3,
-				"buttontext": "Progression",
-				"imageurl": "",
-				"content": [
-					{
-						"title": "<TextStyle.Green>Aetheric Spire</>",
-						"text": "The Aetheric Spire is the core foundation of the progression of Cerberus Ascended. The Spire is comprised of Tiers broken down into a series of quests, boss events, and other challenges that players must tackle in order to conqeur the Spire.\r\n\r\nAs you progress from Tier to Tier of the Spire, your entire experience will begin to shift. The loot you receive from quests, as well as various drops throughout the world, will begin to expand and grow in strength. Your rates, along with damage dealt and damage reduction for both you and your ridden tames, increase to compliment your ascension of the Spire. There are many bonuses and new features unlocked as you progress to help really solidify the feeling of power fantasy and growth.\r\n\r\n<TextStyle.Violet>Progression Tiers</>\r\n-Castaway\r\n-Survivor\r\n-Starseeker\r\n-Aetheric\r\n\r\nCastaway is the first Tier players will enter, and is accessible by completing your very first quest."
-					},
-					{
-						"title": "<TextStyle.Green>Quests</>",
-						"text": "Quests will be your main driving force through the Spire. They introduce players to the different mods and their features, challenging creatures, and help guide players on a revamped path of progression to match the power curve of the servers. \r\n\r\nQuests will track across the cluster, and can be completed on any server barring any restrictions such as resources or creature-spawns that can limit creature variety.\r\n\r\nTo track your quests you can press F2 on your keyboard, or access the Quest UI from your radial menu. "
-					},
-					{
-						"title": "<TextStyle.Green>Boss Events</>",
-						"text": "In orders for players to progress into the next Tier they will need to take on custom challenging Boss Events. Each Tier will have its own hand-made boss arenas on different maps, ensuring players will always know where to go. Boss Events also feature in-game announcements, as well as announcements in Discord so players always know when a specific boss is spawning on which map.\r\n\r\nThe Bosses and Minions in the Events are all hand-picked with a custom assortment of stats and possible Shiny! Buffs that can be applied to every creature. You may find yourself struggling to take on Bosses on your first runs, but through buildcrafting of your char and dino team, you'll be able to earn your ascension to the next Tier. "
+						"text": "<TextStyle.Green>3/29/2025</>\r\nFixes\r\nFixed an issue with Alphas not dropping tributes.\r\nFixed the color of chat messages on Svart. No more red \r\nFixed chat tags duplicating on Extinction.\r\n\r\nPlugin Updates\r\nSome of the plugins we use weren't fully impacted by the recent game update, but some have had parts of their functionality hit. Most of our systems are still working, but Supply Crate Overrides and Event Bosses may be a bit finnicky until the next updates for those related plugins drop. Should be later today.\r\n\r\nShiny and Territorial Tuning\r\nUntameable enemies provide a good challenge. They're usually tanky, hard hitting, and have some form of cool loot chances tied to them.\r\n\r\nBut it's absolutely not fun when there's not much bias to the selection process for what becomes Enraged or Territorial. For the sake of backing narrative to the cluster, having a wide variety of creature types become \"enhanced\" is absolutely HUGE. So I want to maintain that feeling, while also making sure players don't feel bummed out constantly running into cool creatures that can't be snagged for use.\r\n\r\nShiny Changes\r\nReduced chance of Enraged spawn from 20% to 15%\r\nIncreased level multiplier for Enraged from 1.5x to 1.75x\r\nEnabled Easter variants for Shiny spawns.\r\nIncreased the lifetime of wild shiny dinos by 25%, putting them roughly at 20 hours before they despawn.\r\nSlightly increased spawn intervals to a minimum of 15 minutes, maximum of 30 minutes.\r\nThis combined with the above change leaves the same average amount of Shiny Dinos up at the same time.\r\nAdded a new loot drop to Enraged that will potentially roll for either Magic Essence for Nanoh's Items, or Crystalized Gessence for Nanoh's Saddles and Seed Galore items.\r\n\r\nTerritorial Changes\r\nGamma spawn chance reduced from 30% to 10%. XP multiplier increased from 1.5x to 1.75x. Stat multiplier increased from 2x to 3x\r\nBeta spawn chance reduced from 20% to 5%. XP multiplier increased from 2x to 2.5x. Stat multiplier increased from 3x to 4x\r\nAlpha spawn chance reduced from 15% to 1%. XP multiplier increased from 2.75x to 3.5x. Stat multiplier increased from 4.5x to 6.25x\r\n\r\nWeekend Event\r\nWild dinos over level 100 have a potential pool of 60 colors they can pull from and use for any color region.\r\nNanoh's Ascended Equipment and Ascended Saddles drop rate increased to 2x\r\nEaster Variants enabled for Shiny spawns.\r\nEveryone in Castaway tier is receiving a Token cache! There will be 3 consumables inside the cache, with names and descriptions properly detailing what the Tokens and their commands are, and how many you'll receive. Your current tokens, and their amounts, can be checked at any time by using /tokens as a chat command.\r\n5 Dino Mindwipes. These can be used by looking at the dino in particular that you want to statwipe and using /dmindwipe as a chat command.\r\n10 Insta Egg Hatches. These can be used by looking at an egg that is in a place with the right temperature and using /hatch as a chat command to instantly hatch the egg.\r\n3 Dino Gender Changes. These can be used by looking at the dino in particular you want to change the gender of and using /cg as a chat command."
 					}
 				]
 			},
@@ -79,7 +60,7 @@
 				"content": [
 					{
 						"title": "<TextStyle.Green>Chat Command List</>",
-						"text": "Some of the features of the cluster are accessed through simple chat commands, which players just have to type into the in-game chat like they're sending a message.\r\n\r\n<TextStyle.Green>/showrates</>\r\nThis can be used at any time to check on your current rates with any additional bonuses, as well as your damage dealt and damage resistance bonuses. \r\n\r\n<TextStyle.Green>/solofarm</>\r\nWhether you're a lone wolf, or your tribe's all asleep, you can pick up a Doedi or Anky of any variant with a flyer, then use /solofarm to make them start swinging away.\r\n\r\n<TextStyle.Green>/upload</>\r\nUsed to upload your inventory into the cloud before transferring, including Element and Trophhies! This can only be used while accessing an Obelisk Terminal or Transmitter.\r\n\r\n<TextStyle.Green>/download</>\r\nNormally when you transfer servers, your items will automatically download to your character. This command can be used in cases of players crashing while transferring, causing them to spawn in naked. Using /download will retrieve your items from the cloud and right back to your character."
+						"text": "Some of the features of the cluster are accessed through simple chat commands, which players just have to type into the in-game chat like they're sending a message.\r\n\r\n<TextStyle.Green>/showrates</>\r\nThis can be used at any time to check on your current rates with any additional bonuses, as well as your damage dealt and damage resistance bonuses. \r\n\r\n<TextStyle.Green>/solofarm</>\r\nWhether you're a lone wolf, or your tribe's all asleep, you can pick up a Doedi or Anky of any variant with a flyer, then use /solofarm to make them start swinging away.\r\n\r\n<TextStyle.Green>/upload</>\r\nUsed to upload your inventory into the cloud before transferring, including Element and Trophhies! This can only be used while accessing an Obelisk Terminal or Transmitter.\r\n\r\n<TextStyle.Green>/download</>\r\nNormally when you transfer servers, your items will automatically download to your character. This command can be used in cases of players crashing while transferring, causing them to spawn in naked. Using /download will retrieve your items from the cloud and right back to your character.\r\n\r\n<TextStyle.Green>/boxes</>\r\nIf you receive any loot boxes while offline, or respawn/transfer servers with the Loot Boxes in your inventory, than they will be sent to the Post Office. They can be retrieved by using the above command."
 					},
 					{
 						"title": "",
@@ -88,21 +69,17 @@
 				]
 			},
 			{
-				"layout": 3,
+				"layout": 2,
 				"buttontext": "Enhanced Weaponry",
 				"imageurl": "",
 				"content": [
 					{
-						"title": "Weapons of the Ages",
-						"text": "Weapons have a level that starts at 1 and can go up to level 5. To increase it, we must look at the object in the inventory. It will have the description: The current level, the type of weapon and the total number of kills with the weapon.\r\n\r\nThe important thing here is to look at the type of weapon, since this will define which animals give experience for the weapon. To get a different type of weapon than the normal one, you must improve the weapon at the Scrap Bench.\r\n\r\nFor example, if you use the baseball bat and you get a swamp type, you must eliminate Sarcos, Frogs, etc., and each kill of these animals will give you experience. The experience requirements are different for each type of weapon, so the bat can level up with only 6 kills, but the sniper will need 12 to go from level 1 to 2.\r\n\r\nThis is the list of types and which dinos belong to each type.\r\n\r\nTipos especiales de armas - Weapons Special Types:\r\nPantanoso: Beelzebufo, Sarco, Kaprosuchus, Titanoboa, Baryonyx, Megalania, Arthropluera\r\nPelaje: Lobo, Rhino, Daeodon, Yutyranus, Megatherium, Sable, Direbear, Mammoth\r\nHerbivoros: Morellatops, Trike, Parasaurio, Stego, Pachy, Pachyrhino, Ankylo, Doedicurus\r\nCarnivoros: Raptor, Carno, Rex, Ceratosaurio, Megalosaurio, Mantis\r\nVolador: Argentavis, Buho, Ptera, Quetzal, Pelagornis, Onyc\r\nGigantes: Rex, Giganoto, Gigantoraptor, Carcha, Bronto, Diplodocus\r\nCorruptos: Arthro, Carno, Ptera, Raptor, Trike, Stego -> Corrupto\r\nMedianos: Equus, Thylacoleo, Alosaurio, Chalicoterio, Kentro, Therizino, Megaloceros\r\n\r\n<TextStyle.Green>Upgrading Scrap Weapons</>\r\nTo upgrade a weapon you must have the scrap bench, here you will have to put the weapon you want to upgrade in the table inventory and select it (Click on it while it is on the table) then click the button that appears in the middle of the scrap bench interface, the button says \"Upgrade Weapon\". The requirements to upgrade a weapon are listed in their relevant Weapons Bench.\r\n\r\nThe first time you upgrade a weapon you will get a random skill that could be either a buff when equipped or extra damage of some kind, for the second time you will get the one you didn't get the first time. That is, if the first time you got the buff, the second time you will get the damage. Damage or buffs are random from the following lists:\r\n\r\nDamage Types:\r\nArmorCracker - Weakens the enemy's armor\r\nBlinding - Blinds the enemy with a viscous effect\r\nElectrifying - It has the same effect as an eel.\r\nBleeder\r\nBurner\r\nFreezer\r\nKillerFeeder - Healing health when hitting a corpse\r\nTranquilizer - Quite powerful narcotic hit\r\nVampiric - You heal as you do damage.\r\nWaterburn\r\nSpiderTrap - You catch the enemy in a spider web\r\nPoisonous - Poisons enemies with an effect similar to that of the plant x\r\nMuddy - Applies a muddy vision to enemies in addition to slowing them down.\r\n\r\nBuff Types:\r\nBerserker - You gain increased resistance to damage and the damage you deal\r\nRecovery - You receive life and stamina regeneration\r\nImmune Shock - You are immune to electric stuns\r\nImmune Web - You are immune to stuns from a spider web\r\nInspired - You get an experience boost\r\nPredator Vision\r\nSprinter - You run faster and consume less stamina"
+						"title": "Scrap Weapons",
+						"text": "New Text"
 					},
 					{
 						"title": "Fantasy Weapons",
-						"text": "This mod adds new farmable and craftable materials. They are only obtainable by using the mod's tools which can be crafted from the Fantasy Smithy.\r\n\r\nThe farmable materials are:\r\n\r\nObtainable with the Pickaxe\r\nAbyssal Shard -> -> Obsidian Stones\r\nStar Iron -> -> Metal Nodes\r\nGem Sharda -> -> Crystal nodes\r\n\r\nObtainable with the Knife:\r\nWood Insect -> -> Trees\r\nBeast Fang ->-> Dead Animals\r\nQuality Hide -> -> Dead Animals\r\n\r\nObtainable with the Axe:\r\nImbued Wood -> -> Trees\r\nRunic Stone -> -> Stone\r\nHard Bone -> -> Dead Animals\r\n\r\nObtainable with the Sickle:\r\nImbued Rope -> -> Trees\r\nDelicated Silk -> -> Bushes (how to farm fiber)\r\nBeast Scales -> -> Dead Animals\r\n\r\nCraftable Materials:\r\nAbyssal Crystal: Used to upgrade weapons with a new skill\r\nEnchanted Wood: Used to craft weapons of all levels\r\nStranger Patch: Used to craft weapons of all levels\r\nSharp Bone: Used to Crafting low level weapons\r\nStar Ingot: Used to craft mid-level weapons\r\nDragon Gem: Used to craft high-level weapons"
-					},
-					{
-						"title": "Scrap Weapons",
-						"text": "This mod uses materials that can be crafted in the Scrap Weapon Bench using normal materials you harvest with standard tools.\r\n\r\nMaterials:\r\nHard Lether\r\nQuality Scrap\r\nReinforced Metal Ingot\r\nWooden Board"
+						"text": ""
 					}
 				]
 			},
@@ -117,25 +94,6 @@
 					},
 					{
 						"title": "",
-						"text": ""
-					}
-				]
-			},
-			{
-				"layout": 2,
-				"buttontext": "Protos and Unproven",
-				"imageurl": "",
-				"content": [
-					{
-						"title": "<TextStyle.Green>Prototherian</>",
-						"text": "<TextStyle.Green>Path to Perfection</>\r\n\r\n**Lore Info to come soon**\r\n\r\nPrototherians are special hand-picked creatures that can spawn above the max level, and have guarantees of minimum stats varying from creature to creature.\r\n\r\nWhile Prototherians can be tamed, they also have their own unique lootpool to encourage chasing them down even if it's not a creature you want to tame."
-					},
-					{
-						"title": "<TextStyle.Green>Unproven</>",
-						"text": "<TextStyle.Green>Path to Perfection</>\r\n\r\n**Lore Info to come soon**\r\n\r\nUnproven, similar to Prototherians, are hand-picked creatures that will spawn at least at MUCH higher levels than normal, with max health and melee stats. Their size will match their bite, with a 2.5x size multiplier applied to any Unproven.\r\n\r\nPlayers familiar with Captains/Champions/Majors of ARPG games will find themselves right at home with the challenge provided by Unproven. Unproven cannot be tamed, but can provide very rare and unique loot for players."
-					},
-					{
-						"title": "<TextStyle.Green>Boss Events</>",
 						"text": ""
 					}
 				]
