@@ -22,7 +22,7 @@
 				"content": [
 					{
 						"title": "Cerberus Ascended Server Guide",
-						"text": "<TextStyle.Violet>Welcome to Cerberus Ascended!</>\r\n\r\n<TextStyle.Green>Using the Server Guide</>\r\n\r\nThis Server Guide is your quick-reference hub for all essential gameplay information. Whether you need details on progression, a brief FAQ, info about rates/stats, details of ongoing events, or even just the latest Server Update Notes, you'll find them here.\r\n\r\nFor additional help, updates, and community discussions, be sure to use the Discord button to join our server. Our community and admins are ready to assist, answer questions, and keep you informed on everything happening."
+						"text": "<TextStyle.Violet>Welcome to Cerberus Ascended!</>\r\n\r\n<TextStyle.Green>Using the Server Guide</>\r\n\r\n<RichColor Color=\"1, 0.65, 0 ,1\">This Server Guide is your quick-reference hub for all essential gameplay information. Whether you need details on progression, a brief FAQ, info about rates/stats, details of ongoing events, or even just the latest Server Update Notes, you'll find them here.</>\r\n\r\n<RichColor Color=\"1, 0.65, 0 ,1\">For additional help, updates, and community discussions, be sure to use the Discord button to join our server. Our community and admins are ready to assist, answer questions, and keep you informed on everything happening.</>\r\n\r\n<TextStyle.Green>Our Admins are currently</>\r\n\r\n<RichColor Color=\"0, 0, .9, .8\">Server Owner:</>\r\nCrixus\r\n\r\n<RichColor Color=\"0, 1, 0.5\">Our Moderators:</>\r\nChef\r\nCykotyk\r\nPandora\r\nRaven\r\nSammeh\r\n\r\n"
 					},
 					{
 						"title": "Current Events",
@@ -54,7 +54,7 @@
 				]
 			},
 			{
-				"layout": 1,
+				"layout": 2,
 				"buttontext": "Chat Commands",
 				"imageurl": "",
 				"content": [
@@ -63,38 +63,65 @@
 						"text": "Some of the features of the cluster are accessed through simple chat commands, which players just have to type into the in-game chat like they're sending a message.\r\n\r\n<TextStyle.Green>/showrates</>\r\nThis can be used at any time to check on your current rates with any additional bonuses, as well as your damage dealt and damage resistance bonuses. \r\n\r\n<TextStyle.Green>/solofarm</>\r\nWhether you're a lone wolf, or your tribe's all asleep, you can pick up a Doedi or Anky of any variant with a flyer, then use /solofarm to make them start swinging away.\r\n\r\n<TextStyle.Green>/upload</>\r\nUsed to upload your inventory into the cloud before transferring, including Element and Trophhies! This can only be used while accessing an Obelisk Terminal or Transmitter.\r\n\r\n<TextStyle.Green>/download</>\r\nNormally when you transfer servers, your items will automatically download to your character. This command can be used in cases of players crashing while transferring, causing them to spawn in naked. Using /download will retrieve your items from the cloud and right back to your character.\r\n\r\n<TextStyle.Green>/boxes</>\r\nIf you receive any loot boxes while offline, or respawn/transfer servers with the Loot Boxes in your inventory, than they will be sent to the Post Office. They can be retrieved by using the above command."
 					},
 					{
-						"title": "",
-						"text": ""
+						"title": "<TextStyle.Green>Token Commands List</>",
+						"text": "Other features of the cluster are accessed through simple chat commands purchased through our token shop. Which players can earn ingame through events or through puchasing of the tokens. just have to type into the in-game chat like they're sending a message which and have the required token availible.\r\n\r\n<TextStyle.Green>/dinorespec</> - respec a dino (like a dino mind wipe)\r\n<TextStyle.Green>/GenderSwap</> - changes gender bulk \r\n<TextStyle.Green>/Hatch</> - hatches an egg immediately \r\n<TextStyle.Green>/Neuter</> - neuters the dino\r\n<TextStyle.Green>/NeuterAOE</> - neuters all dinos in range\r\n<TextStyle.Green>/NeuterAOE</> theri  neuters all theris in range\r\n<TextStyle.Green>/Grow</> - matures the dino\r\n<TextStyle.Green>/Imprint</> - imprints and/or adds imprint quality \r\n<TextStyle.Green>/ClaimAOE</> - claims all dinos in range\r\n<TextStyle.Green>/resetcd</> - resets dino breeding cooldown\r\n<TextStyle.Green>/resetcdaoe</> - resets breeding cooldown of all dinos in a range"
 					}
 				]
 			},
 			{
 				"layout": 2,
-				"buttontext": "Enhanced Weaponry",
-				"imageurl": "",
-				"content": [
-					{
-						"title": "Scrap Weapons",
-						"text": "<TextStyle.Green>Upgrading Scrap Weapons</>\r\n\r\nTo upgrade a weapon you must have the scrap bench, here you will have to put the weapon you want to upgrade in the table inventory and select it (Click on it while it is on the table) then click the button that appears in the middle of the scrap bench interface, the button says \"Upgrade Weapon\". The requirements to upgrade a weapon are to have 50 Quality Scrap in the scrap bench inventory.\r\n\r\nThe first time you upgrade a weapon you will get a random skill that could be either a buff when equipped or extra damage of some kind, for the second time you will get the one you didn't get the first time. That is, if the first time you got the buff, the second time you will get the damage. Damage or buffs are random from the following lists:\r\n\r\nDamage Types:\r\n- ArmorCracker - Weakens the enemy's armor\r\n- Blinding - Blinds the enemy with a viscous effect\r\n- Electrifying - It has the same effect as an eel.\r\n- Bleeder\r\n- Burner\r\n- Freezer\r\n- KillerFeeder - Healing health when hitting a corpse\r\n- Tranquilizer - Quite powerful narcotic hit\r\n- Vampiric - You heal as you do damage.\r\n- Waterburn\r\n- SpiderTrap - You catch the enemy in a spider web\r\n- Poisonous - Poisons enemies with an effect similar to that of the plant x\r\n- Muddy - Applies a muddy vision to enemies in addition to slowing them down.\r\n\r\nBuff Types:\r\n- Berserker - You gain increased resistance to damage and the damage you deal\r\n- Recovery - You receive life and stamina regeneration\r\n- Immune Shock - You are immune to electric stuns\r\n- Immune Web - You are immune to stuns from a spider web\r\n- Inspired - You get an experience boost\r\n- Predator Vision\r\n- Sprinter - You run faster and consume less stamina"
-					},
-					{
-						"title": "Fantasy Weapons",
-						"text": "<TextStyle.Green>Upgrading Fantasy Weapons</>\r\nFantasy Weapons follow the same gameplay loop as Scrap Weapons, but using materials that you farm out in the wild using tools from the mod.\r\n\r\n<TextStyle.Green>Materials</>\r\n\r\nThis mod adds new farmable and craftable materials. They are only obtainable by using the mod's tools which can be crafted from the Fantasy Smithy.\r\n\r\nThe farmable materials are:\r\n\r\nObtainable with the Pickaxe\r\nAbyssal Shard -> -> Obsidian Stones\r\nStar Iron -> -> Metal Nodes\r\nGem Sharda -> -> Crystal nodes\r\n\r\nObtainable with the Knife:\r\nWood Insect -> -> Trees\r\nBeast Fang ->-> Dead Animals\r\nQuality Hide -> -> Dead Animals\r\n\r\nObtainable with the Axe:\r\nImbued Wood -> -> Trees\r\nRunic Stone -> -> Stone\r\nHard Bone -> -> Dead Animals\r\n\r\nObtainable with the Sickle:\r\nImbued Rope -> -> Trees\r\nDelicated Silk -> -> Bushes (how to farm fiber)\r\nBeast Scales -> -> Dead Animals\r\n\r\nCraftable Materials:\r\nAbyssal Crystal: Used to upgrade weapons with a new skill\r\nEnchanted Wood: Used to craft weapons of all levels\r\nStranger Patch: Used to craft weapons of all levels\r\nSharp Bone: Used to Crafting low level weapons\r\nStar Ingot: Used to craft mid-level weapons\r\nDragon Gem: Used to craft high-level weapons"
-					}
-				]
-			},
-			{
-				"layout": 1,
 				"buttontext": "Creature Tiers",
 				"imageurl": "",
 				"content": [
 					{
 						"title": "<TextStyle.Green>Creature Tiers</>",
-						"text": "Throughout your journey you will very quickly come across an enchanting feature to most creatures: A particle aura of either red, green, or blue. These particles will denote a type of Tier a creature is, which can grant them different bonuses based on the tier.\r\n\r\nEach tier is tied to a CreatureTiers gene trait and as such can be transferred in the usual ways a trait can be. Tiers each correspond to the same color bosses do: Red particles for alpha, blue for beta, and gamma for green. Each tier also comes with a dangerous Territorial variant - substantially more powerful than its usual kind. Taming methods are unaffected by each tier, but territorial critters can't be pacified, and must simply be fought or avoided. Creatures of the ARK may even rally around the territorial beast in support!\r\n\r\n<TextStyle.Green>Gamma Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:\r\n\r\n<TextStyle.Blue>Beta</>\r\n\r\n\r\n\r\n\r\n<TextStyle.Red>Alpha</>\r\n\r\n"
+						"text": "Throughout your journey you will very quickly come across an enchanting feature to most creatures: A particle aura of either red, yellow, purple, blue, or white. These particles will denote a type of Tier a creature is, which can grant them different bonuses based on the tier.\r\n\r\n<RichColor Color=\"0, 0, 1, 1\">Aegis: HP enhanced - Blue</>\r\n<RichColor Color=\"1, 1, 0, 1\">Zephyr: Speed enhanced - Yellow</>\r\n<RichColor Color=\"1, 0, 0 ,1\">Spartan: Melee enhanced - Red</>\r\n<RichColor Color=\"0.65, 0, 1 ,1\">Atlas: Weight enhanced - Purple</>\r\n<RichColor Color=\"1, 1, 1 ,1\">Eidolon: All enhanced- White</>\r\n\r\nOn top of this each tier has Daemonial variants who are setup where their wild versions of a higher multiplier, but that multiplier goes down once tamed, they will still sit a little higher than the standard variants. The Tier structure has ties to the maps, where a Tier 1 map would have the first tier, T2 the next, so on and so forth. Once you get to Tier 2 and start getting those Daemonials, they can be used to breed into something like specialties, where they're pre-assigned certain Shiny abilities and either Defensive, Offensive, or Utility-based Assorted Traits. Example: a Glass Cannon build would have a reducing HP multiplier to nerf health down, but they could have a higher melee multiplier with damage-based Shiny abilities and Offensive AT traits. With the work involved, you would be able to continue breeding together the \"Specialist\" archetypes to get to the next tier. Each tier is tied to a CreatureTiers gene trait and as such can be transferred in the usual ways a trait can be. \r\n\r\n<RichColor Color=\"0, 0, 1, 1\">Aegis Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.5x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.05x\r\n\r\n<RichColor Color=\"0, 0, 1, 1\">Daemonial Aegis Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.6x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.3x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.3x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.05x\r\n<RichColor Color=\"0.21,0.5,1,1\">Wild Bonus:</>A 3x bonus to all stats, that is removed when tamed\r\n\r\n<RichColor Color=\"1, 1, 0, 1\">Zepher Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.3x\r\n\r\n<RichColor Color=\"1, 1, 0, 1\">Daemonial Zepher Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.3x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.3x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.3x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Wild Bonus:</>A 3x bonus to all stats, that is removed when tamed\r\n\r\n<RichColor Color=\"1, 0, 0 ,1\">Spartan Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.5x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.05x\r\n\r\n<RichColor Color=\"1, 0, 0 ,1\"> Deamonial Spartan Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.5x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.1x\r\n<RichColor Color=\"0.21,0.5,1,1\">Wild Bonus:</>A 3x bonus to all stats, that is removed when tamed\r\n\r\n<RichColor Color=\"0.65, 0, 1 ,1\">Atlas Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.5x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.05x\r\n\r\n<RichColor Color=\"0.65, 0, 1 ,1\"> Deamonial Atlas Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.5x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.05x\r\n<RichColor Color=\"0.21,0.5,1,1\">Wild Bonus:</>A 3x bonus to all stats, that is removed when tamed\r\n\r\n<RichColor Color=\"1,1,1,1\">Eidolon Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.75x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.75x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.75x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.2x\r\n\r\n<RichColor Color=\"1,1,1,1\">Deamonial Eiolon Bonuses</>\r\n<RichColor Color=\"0.21,0.5,1,1\">Health</>:1.75x\r\n<RichColor Color=\"0.21,0.5,1,1\">Weight</>:1.75x\r\n<RichColor Color=\"0.21,0.5,1,1\">Melee</>:1.75x\r\n<RichColor Color=\"0.21,0.5,1,1\">Speed</>:1.2x\r\n<RichColor Color=\"0.21,0.5,1,1\">Wild Bonus:</>A 3x bonus to all stats, that is removed when tamed"
 					},
 					{
-						"title": "",
+						"title": "<TextStyle.Green>Creature Tiers Illustrated</>",
+						"text": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+					}
+				]
+			},
+			{
+				"layout": 4,
+				"buttontext": "Encounter Types",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "Human NPCs",
+						"text": "You can tame them, they like to eat most things.\r\n\r\nHuman NPC villages can be protected by X Plants, and can send out raiding parties to attack player bases.\r\n\r\nTame NPCs can guard your land, they can patrol it or be set in turret mode to defend it from the rooftops.\r\n\r\nThey can collect resources that are in the area as well as look after your crops.\r\n\r\nThey will look after your Forge, Campfires, Cook Meat, Put the correct stuff into Preserving Bin and Crop Plots and even catch meat and fish.\r\n\r\nThe wild NPCs can tame and ride their own dinos to help protect their villages. This includes modded creatures, if you kill the NPC off their mount, the mount will become availible for taming without their master."
+					},
+					{
+						"title": "Incursions",
+						"text": "TBA"
+					},
+					{
+						"title": "Asharavel",
+						"text": "Creatures from the fantastical realm of Asharavel! Encounter the formidable presence of orcs, the cunning mischief of goblins, the imposing stature of trolls, the enigmatic allure of werewolves, and an array of other fantastical beings that bring the world to life. This collection of creatures is only the beginning, as the world of Asharavel is dynamic and ever-expanding."
+					},
+					{
+						"title": "Incursion types",
+						"text": "TBA"
+					}
+				]
+			},
+			{
+				"layout": 3,
+				"buttontext": "Bosses",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "Boss Events",
+						"text": "New Text"
+					},
+					{
+						"title": "Free Roaming Bosses",
 						"text": ""
+					},
+					{
+						"title": "Vanilla bosses",
+						"text": "They are untouched as the main challenge will be in our incursions and boss events"
 					}
 				]
 			}
@@ -102,7 +129,7 @@
 		"links": [
 			{
 				"text": "Discord",
-				"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+				"url": "https://discord.gg/STGRfGbFHF"
 			}
 		],
 		"version": 2
